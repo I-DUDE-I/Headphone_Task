@@ -11,7 +11,7 @@ body{
     background-color: #f4c76e;
 }
 .offcanvas-header{
-    padding-right: 40px;
+    /* padding-right: 40px; */
 }
 .navbar3{
     overflow-y:visible;
@@ -171,6 +171,7 @@ nav .b1{
 
 #card3 .card{
     position: relative;
+    border: 0px solid rgba(0, 0, 0, 0);
 }
 #card3 .row{
     display: flex;
@@ -215,4 +216,131 @@ footer .btn:hover{
     width: 50px;
     height: 50px;
     font-size: 130%;
+}
+
+
+
+
+@media screen and (max-width:500px){
+
+    *{
+        padding: 0;
+        margin: 0;
+        font-size: 60%;
+    }
+
+    #banner{
+        font-family: "Archivo Black", sans-serif;
+        /* font-family: "Oswald", sans-serif; */
+        padding-top: 60px;
+        padding-left: 10px;
+        margin-bottom: 100px;
+    }
+    #banner h6{
+        font-size: 150%;
+        font-weight:bolder;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    #banner h1{
+        padding: 0;
+        margin-top: 0;
+        font-size: 380%;
+        font-weight: bolder;
+    }
+    #banner button{
+        font-size: 150%;
+        border-radius: 50px;
+    }
+    footer .col-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #content1 .fs-4{
+        font-size: 10px;
+    }
+    #content1 div{
+        margin: 0;
+        padding: 0;
+    }
+    #content1 *{
+        font-size: 10%;
+    }
+    nav .nav-link *{
+        font-size: 6000%;
+    }
+
+    nav a{
+        font-size: 400%;
+    }
+    nav img{
+        width: 25px;
+    }
+    nav .b1{
+        font-size:4000%;
+    }
+    nav .b2 {
+        font-size: 800%;
+        padding: 0;
+        border: 0 solid rgba(0, 0, 0, 0);
+    }
+
+    #cards1 .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #cards1 button{
+        font-size: 3000%;
+    }
+    #cards2 .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    #cards2 i{
+        font-size: 130%;
+    }
+    #content3 button{
+        font-size: 450%;
+    }
+    #card3 .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #card3 .num{
+        font-size: 3000%;
+    }
+    #card3 .row *{
+        margin-top: 0px;
+        margin: 0;
+    }
+    #card3 .card{
+        border-bottom: 1px solid black;
+    }
+    footer .btn{
+        width: 20px;
+        height: 20px;
+        font-size: 1000%;
+        padding: 0;
+    }
+    footer .btn:hover{
+        color: #f4c76e;
+        background-color:black;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 1000%;
+        padding: 0;
+    }
+
 }
