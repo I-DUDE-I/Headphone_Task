@@ -133,7 +133,7 @@ nav .b1{
 }
 #cards2 .card1{
     background-image: url(./Images/Cards2/1.jpg);
-    background-size: contain;
+    /* background-size: contain; */
     background-size: cover;
 }
 #cards2 .card2{
@@ -217,6 +217,42 @@ footer .btn:hover{
     height: 50px;
     font-size: 130%;
 }
+#card3 .card{
+    width: 300px;
+}
+#cards2 .card{
+    width: 300px;
+    height: 200px;
+}
+
+/* scrollbar */
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    transition: all 0.6s;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#f4c76e; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:black;
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(129, 129, 129); 
+    cursor:pointer;
+  }
+
+  ::-webkit-scrollbar:hover{
+    width: 12px;
+  }
 
 
 
@@ -269,7 +305,7 @@ footer .btn:hover{
         font-size: 10%;
     }
     nav .nav-link *{
-        font-size: 6000%;
+        font-size: 140%;
     }
 
     nav a{
@@ -279,7 +315,7 @@ footer .btn:hover{
         width: 25px;
     }
     nav .b1{
-        font-size:4000%;
+        font-size:100%;
     }
     nav .b2 {
         font-size: 800%;
@@ -300,10 +336,12 @@ footer .btn:hover{
     }
     #cards2 .row{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content:space-between;
         align-items: center;
         gap: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     #cards2 i{
         font-size: 130%;
@@ -325,7 +363,7 @@ footer .btn:hover{
         margin: 0;
     }
     #card3 .card{
-        border-bottom: 1px solid black;
+        /* border-bottom: 1px solid black; */
     }
     footer .btn{
         width: 20px;
@@ -342,5 +380,17 @@ footer .btn:hover{
         font-size: 1000%;
         padding: 0;
     }
+    #card3 .card{
+        width: 350px;
+    }
+    #cards2 .card{
+        width: 210px;
+        height: 133px;
+    }
+
+    iframe{
+        height: 300px;
+    }
+
 
 }
