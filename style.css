@@ -151,6 +151,26 @@ nav .b1{
     background-size: contain;
     background-size: cover;
 }
+#cards2 .card5{
+    background-image: url(./Images/Cards2/5.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card6{
+    background-image: url(./Images/Cards2/6.webp);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card7{
+    background-image: url(./Images/Cards2/7.jpg);
+    background-size: contain;
+    background-size: cover;
+}
+#cards2 .card8{
+    background-image: url(./Images/Cards2/8.jpg);
+    background-size: contain;
+    background-size: cover;
+}
 
 #content3 .divmain{
     background-color: #f4c76e;
@@ -225,7 +245,6 @@ footer .btn:hover{
     height: 200px;
 }
 
-/* scrollbar */
 /* Scroll bar */
 /* width */
 ::-webkit-scrollbar {
@@ -391,6 +410,16 @@ footer .btn:hover{
     iframe{
         height: 300px;
     }
+    #cards2 .p1{
+        font-size: 2000%;
+        position: absolute;
+        top: 100px;
+        left: 10px;
+    }
+    #cards2 .plus{
+        width: 40px;
+    }
+
 
 
 }
